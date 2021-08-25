@@ -52,20 +52,6 @@ textarea{
     font-size: large;
 }
 
-#btn-translate {
-    background-color: var(--btn-bg-color);
-    color: black;
-    margin: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
-    cursor: pointer;
-}
-
-#btn-translate:hover {      
-    background-color: var(--btn-bg-hover-color);
-    color: var(--btn-hover-text-color);
-}
-
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -121,3 +107,25 @@ textarea{
 .fa-github {
     color: black;
 }
+
+#btn-translate{background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%)}
+#btn-translate{
+   margin: 10px;
+   padding: 10px 35px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   border: none;
+   margin-left: 180px;
+ }
+
+ #btn-translate:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
