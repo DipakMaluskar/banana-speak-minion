@@ -52,6 +52,8 @@ textarea{
     font-size: large;
 }
 
+
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -108,6 +110,7 @@ textarea{
     color: black;
 }
 
+
 #btn-translate{background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%)}
 #btn-translate{
    margin: 10px;
@@ -129,5 +132,3 @@ textarea{
    color: #fff;
    text-decoration: none;
  }
-
- 
